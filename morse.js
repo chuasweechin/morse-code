@@ -82,6 +82,8 @@ function decodeMorseCodeIntoWord (encodedWordArray) {
 }
 
 //var userInput = prompt("Input a word to be encoded!");
+//var userInputArray = userInput.split("");
+
 encodeWordWithMorseCode(firstWordArray);
 encodeWordWithMorseCode(secondWordArray);
 
