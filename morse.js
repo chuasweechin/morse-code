@@ -47,7 +47,7 @@ var thirdEncodeWord =
 
 var thirdEncodeWordArray = thirdEncodeWord.split(" ");
 
-function encodeWithMorseCode (wordArray) {
+function encodeWordWithMorseCode (wordArray) {
     console.log(wordArray);
 
     for (var i = 0; i < wordArray.length; i++) {
@@ -66,7 +66,7 @@ function encodeWithMorseCode (wordArray) {
     result = "";
 }
 
-function encodeWithMorseCode (encodedWordArray) {
+function decodeMorseCodeIntoWord (encodedWordArray) {
     console.log(encodedWordArray);
 
     for (var i = 0; i < encodedWordArray.length; i++) {
@@ -82,9 +82,9 @@ function encodeWithMorseCode (encodedWordArray) {
 }
 
 //var userInput = prompt("Input a word to be encoded!");
-encodeWithMorseCode(firstWordArray);
-encodeWithMorseCode(secondWordArray);
+encodeWordWithMorseCode(firstWordArray);
+encodeWordWithMorseCode(secondWordArray);
 
-encodeWithMorseCode(firstEncodeWordArray);
-encodeWithMorseCode(secondEncodeWordArray);
-encodeWithMorseCode(thirdEncodeWordArray);
+dncodeMorseCodeIntoWord(firstEncodeWordArray);
+dncodeMorseCodeIntoWord(secondEncodeWordArray);
+dncodeMorseCodeIntoWord(thirdEncodeWordArray);
