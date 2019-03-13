@@ -85,6 +85,6 @@ function decodeMorseCodeIntoWord (encodedWordArray) {
 encodeWordWithMorseCode(firstWordArray);
 encodeWordWithMorseCode(secondWordArray);
 
-dncodeMorseCodeIntoWord(firstEncodeWordArray);
-dncodeMorseCodeIntoWord(secondEncodeWordArray);
-dncodeMorseCodeIntoWord(thirdEncodeWordArray);
+decodeMorseCodeIntoWord(firstEncodeWordArray);
+decodeMorseCodeIntoWord(secondEncodeWordArray);
+decodeMorseCodeIntoWord(thirdEncodeWordArray);
